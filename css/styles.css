@@ -77,9 +77,9 @@ p{
   margin-top: 20px;
   
 }
-h2{
+h3{
   text-align: center;
-  font-family: 'Fredoka One', cursive;
+  font-family: 'Krona One' ;
 }
 body{
   background-color: #0D0505;
@@ -102,4 +102,6 @@ body{
 .color {
   color: #C94036;
   font-size: 2rem;
+  font-family: 'Krona One';
+  
 }
