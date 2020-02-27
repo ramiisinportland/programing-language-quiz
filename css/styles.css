@@ -1,3 +1,88 @@
+#result  {
+  display: none;
+}
+
 #result {
   display: none;
+}
+
+
+button {
+  font-family: 'Fredoka One', cursive;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #3b3736;
+  border: none;
+  color: rgb(94, 255, 0);
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 50px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 5px
+ 
+
+}
+
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  
+}
+button:hover span {
+  padding-right: 25px;
+}
+
+button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button:active {
+  outline: none;
+  border: none;
+}
+
+
+.center {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgb(197, 212, 202);
+  outline: none;
+  border: none;
+  
+}
+p{
+  text-align: center;
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 25px;
+  margin-top: 20px;
+  
+}
+h2{
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+body{
+  background-color: #40010D;
+}
+
+
+
+.form-control {
+  color: rgb(94, 255, 0) !important;
 }
