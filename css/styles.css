@@ -1,15 +1,12 @@
-#result  {
+#result {
   display: none;
 }
-
 
 .style {
   text-transform: uppercase;
   font-family: 'Krona One';
   margin-left: 1.5rem;
-  
 }
-
 
 button {
   font-family: 'Krona One';
@@ -17,7 +14,7 @@ button {
   border-radius: 4px;
   background-color: #C94036;
   border: none;
-  color:#0D0505;
+  color: #0D0505;
   text-align: center;
   font-size: 28px;
   padding: 25px;
@@ -28,8 +25,6 @@ button {
   margin-right: 5px;
   margin-bottom: 5px;
   margin-left: 5px
- 
-
 }
 
 button span {
@@ -38,6 +33,7 @@ button span {
   position: relative;
   transition: 0.5s;
 }
+
 button span:after {
   content: '\00bb';
   position: absolute;
@@ -45,8 +41,8 @@ button span:after {
   top: 0;
   right: -20px;
   transition: 0.5s;
-  
 }
+
 button:hover span {
   padding-right: 25px;
 }
@@ -55,56 +51,52 @@ button:hover span:after {
   opacity: 1;
   right: 0;
 }
+
 button:active {
   outline: none;
   border: none;
 }
 
-
 .center {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-  background-color:#C94036;
+  background-color: #C94036;
   outline: none;
   border: none;
-
-  
 }
-p{
+
+p {
   text-align: center;
   font-family: 'Krona One';
   font-size: 2rem;
   margin-top: 20px;
-  
 }
-h3{
-    font-family: 'Krona One' ;
-    text-align: center;
-    color: #C94036;
-    margin-bottom: 2rem;
-    margin-top:2rem;
-    font-size:1.75rem;
-  
+
+h3 {
+  font-family: 'Krona One';
+  text-align: center;
+  color: #C94036;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  font-size: 1.75rem;
 }
-body{
+
+body {
   background-color: #0D0505;
 }
-
-
 
 .form-control {
   color: #0D0505!important;
   height: calc(1.5em + 1.75rem + 2px);
   font-size: 1.5rem;
   font-weight: bolder;
-  
 }
 
 .jumbotron {
   padding: 3rem 1rem !important;
   margin-bottom: 2rem;
-  background-color:#0F333D;
+  background-color: #0F333D;
   border-radius: 0.3rem;
   color: #C94036;
 }
@@ -115,5 +107,4 @@ body{
   font-family: 'Krona One';
   margin-top: 2rem;
   margin-bottom: 4rem;
-  
 }
